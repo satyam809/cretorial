@@ -1,0 +1,182 @@
+.mt-40 {
+  margin-top: 15% !important;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  _box-shadow: 0 0 0 3px #000;
+  border: 5px solid transparent;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.dropzone .dz-preview .dz-image {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.css-19kzrtu {
+  padding: 16px !important;
+}
+
+.react-tagsinput-input {
+  width: 100px !important;
+}
+
+.left-12 {
+  left: 12px;
+}
+
+.left-25 {
+  left: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #444;
+}
+
+.b-l-1 {
+  border-left: 1px solid #ddd;
+}
+
+.custom-padding {
+  padding: 6px 0px 0px 16px;
+}
+
+.m-t-m-16 {
+  margin-top: -16px;
+}
+
+.scroll-card {
+  height: 300px;
+  overflow: scroll;
+  overflow-x: auto;
+}
+
+.scroll-card-new {
+  height: 220px;
+  overflow: scroll;
+  overflow-x: auto;
+}
+
+.scroll-card-new h4.fs-15 {
+  cursor: pointer;
+}
+
+.h-150 {
+  height: 150px;
+}
+
+.new-form-check {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.95rem;
+}
+
+.btn-style {
+  background-color: transparent;
+  color: #4b4b5a;
+  outline: none;
+  font-weight: 500;
+  padding: 0.5rem 0.22rem;
+  border: 1px solid #4b4b5a;
+  font-size: 13px;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+}
+
+.btn-disable-style {
+  background-color: transparent;
+  color: #ddd;
+  outline: none;
+  font-weight: 500;
+  padding: 0.5rem 0.22rem;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+}
+
+.btn-changeStyle {
+  background-color: #5369f8;
+  color: #fff;
+  outline: none;
+  font-weight: 500;
+  padding: 0.5rem 0.22rem;
+  border: 1px solid #4b4b5a;
+  font-size: 13px;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+}
+
+.animation-block {
+  display: "flex";
+  text-align: "center";
+  justify-content: "center";
+  width: "100%";
+  height: "100%";
+  background-color: "#000";
+  border-bottom: "1px solid rgba(255, 255, 255, .2)";
+}
+
+.animation-title {
+  text-align: "center";
+  font-size: 100px;
+  color: "#fff";
+  font-family: "Lato, sans-serif";
+  font-weight: 100;
+}
+.uil-copy:before {
+  content: "\e95f";
+  margin-right: inherit;
+}
+.uil-heart-alt:before {
+  content: "\ea46";
+  margin-right: inherit;
+}
+.stickyRow {
+  position: fixed !important;
+  width: 81.5% !important;
+  z-index: 1 !important;
+  margin-top: 10px !important;
+}
+.fixedEditor{
+  max-height: 550px;
+  /* overflow:scroll; */
+  overflow: auto;
+}
+
+.full-editior-model{
+  flex-direction: column !important;
+}
+
+.btn-close{
+  position: relative;
+    /* top: -100px; */
+}
+
+.sun-editor-editable .se-component>figure {
+  margin: auto !important;
+}
+
+/* figure{
+  text-align: center;
+} */
+
+/* .sun-editor .se-wrapper .se-wrapper-wysiwyg {
+  text-align: center;
+} */
+
+

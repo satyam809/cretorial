@@ -1,0 +1,325 @@
+// Styles
+
+// Main styles
+
+@import './bootstrap.scss';
+@import './app.scss';
+
+// Shreyu Icons
+@import './icons.scss';
+
+.offcanvas-end {
+    width: 35%;
+}
+
+.nav-second-level li a {
+    text-transform: capitalize;
+}
+#sidebar-menu>ul>li>a>span {
+    text-transform: capitalize;
+}
+.page-title-box .page-title {
+    text-transform: capitalize;
+}
+li.breadcrumb-item {
+    text-transform: capitalize;
+}
+.uploadimg{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.header-title {
+    display: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+p.text-muted.card-text {
+    white-space: break-spaces;
+}
+.text-editor {  
+    width: auto;
+    margin: 0 auto;
+}
+.ql-editor {
+    min-height: 400px;
+}
+.tabdash .nav-link{
+    font-weight: 500;
+    padding: 0.5rem 0.22rem;
+    border: 1px solid #4b4b5a;
+    font-size: 13px;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+.tabdash .nav-link.active{
+    background: #5369f8;
+    color: #fff;
+    border: 1px solid #5369f8;
+}
+.tabdash .avatar-md {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.tabdash .card-body {
+    height: 170px;
+}
+.tabdash li.nav-item {
+    margin: 4px;
+}
+.tabdash .nav.nav-pills {
+    background: transparent;
+}
+.tabdash .card-body h6 {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.page-title-box .page-title span {
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.page-title-box .page-title span:first-letter {
+    text-transform: uppercase;
+}
+
+.card-pricing .card-pricing-features li {
+    padding: 10px 15px;
+    position: relative;
+}
+
+.card-pricing .card-pricing-features li i {
+    position: absolute;
+    left: -6px;
+    top: 8px;
+}
+
+.tabdash .nav.nav-pills {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.hashtagtab .nav.nav-pills {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.page-title-box {
+    padding: 15px 27px 0px;
+}
+
+.auth-page-sidebar {
+    background-image: url('../images/auth-bg.png');
+    background-size: cover;
+    /* background-size: 100%; */
+    background-position: 0px;
+}
+.auth-page-sidebar .auth-user-testimonial {
+    bottom: 6rem;
+}
+.logout-checkmark {
+    width: 60px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.card-search:hover {
+    border-color: #343a40;
+}
+
+.card-search {
+    cursor: pointer;
+}
+
+.card-search.active {
+    border-color: #5c02dd;
+}
+
+.fullblog .avatar {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.fullblog h6.mt-0 {
+    margin-bottom: 2px !important;
+}
+
+.search-result .card-search .btn-group {
+    display: none;
+}
+
+.search-result .card-search p {
+    margin-bottom: 2px;
+}
+
+span.avatar-title.active {
+    background-color: #5a21c3 !important;
+    color: #fff !important;
+}
+
+.card-search.active p {
+    color: #5e0bdf !important;
+}
+
+.mainsection {
+    position: relative;
+    min-height: 365px;
+    background-color: white;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainsection textarea {
+    border: none;
+    min-height: 280px;
+}
+
+.mainsection .firstsection {
+    padding: 8px 10px;
+}
+
+.mainsection .firstsection button {
+    float: right;
+    background: linear-gradient(54.96deg, #3A35CB -37.27%, #9277FF 124.46%);
+    border-radius: 50px;
+    padding: 7px 30px;
+}
+
+.mainsection .firstsection p {
+    color: #999999;
+    font-size: 14px;
+    padding-left: 11px;
+}
+
+.mainsection .secondsection {
+    padding: 10px 20px;
+}
+
+.instagram span.login {
+    font-size: 20px;
+    color: #4759d3;
+}
+
+.instagram ul.list-group {
+    list-style: none;
+}
+
+.instagram ul.list-group li {
+    margin-left: 9px;
+}
+
+p.like {
+    font-size: 13px;
+}
+
+p.serenity {
+    font-size: 13px;
+}
+
+p.serenity .hashtag {
+    color: #7979ff;
+}
+.twitter p.datetim {
+    font-size: 11px;
+    text-align: center;
+}
+
+.twitter span.fs-15 {
+    font-size: 13px !important;
+}
+
+.twitter .text-start p {
+    font-size: 11px;
+    color: #000000 !important;
+}
+
+.facebook span.fs-13 {
+    font-size: 11px !important;
+}
+
+.hashtagimg {
+    cursor: pointer;
+    padding: 0px;
+}
+.rightside {
+    max-height: 458px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.btn-outline-warning.active {
+    color: #343a40;
+    background-color: #ffbe0b;
+    border-color: #ffbe0b;
+}
+
+form.h-200 {
+    height: 200px;
+}
+
+.secondsection .h-200 {
+    height: 300px;
+    overflow: auto;
+}
+
+.mainsection .secondsection p.words {
+    color: #999999;
+    font-size: 14px;
+    padding-left: 11px;
+}
+
+.secondsection .btn-group {
+    float: right;
+}
+
+.secondsection .btn-group i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mainsection .secondsection .row {
+    padding-top: 13px;
+}
+
+ul.firsttab li:first-child a {
+    color: #4B4B5A;
+}
+
+span.suggetion {
+    cursor: pointer;
+}
+@media screen and (min-width: 786px) and (max-width: 850px){
+    .tabdash .nav-link {
+        font-size: 8px;
+    }
+    .content-page button.btn.btn-soft-secondary {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1200px){
+    .tabdash .nav-link {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1320px){
+    .tabdash .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content-page button.btn.btn-soft-secondary {
+        font-size: 11px;
+    }
+}
+
+
